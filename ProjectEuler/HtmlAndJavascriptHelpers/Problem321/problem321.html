@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>   
+        <script src="../Other/jquery-3.2.1.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="problem321.css">
+    </head>
+    <body>
+        <div class="menu">
+            <div class="input-container">
+                <label for="n">n: </label>
+                <input id="n" type="number" value="4" maxlength="1" />
+            </div>
+            <div><button id="solveBtn">Solve!</button></div>
+        </div>
+
+        <div>
+            <div id="board">
+                <div class="place" myindex="x">
+                    <svg width="28" height="28">
+                        <circle cx="15" cy="15" r="12" stroke="black" stroke-width="1" fill="green" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <div class="count-container">Number of moves: <span id="count">0</span></div>
+
+        <script src="problem321.js"></script>
+
+    </body>
+</html>

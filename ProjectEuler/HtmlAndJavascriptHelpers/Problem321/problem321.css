@@ -1,0 +1,37 @@
+.place{
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    margin:2px;
+}
+
+#board{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:5px;
+    margin-bottom:25px;
+}
+
+.menu{
+    width: 200px;
+    margin: 25px auto;
+}
+
+.menu #solveBtn {
+    width: 100%;
+}
+
+.menu #n {
+    width: 50px;
+    text-align:center;
+}
+
+.menu .input-container{
+    text-align:center;
+    padding:10px;
+}
+
+.count-container{
+    text-align:center;
+}
